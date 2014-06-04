@@ -72,6 +72,8 @@
 						// if successful refresh the cart
 						OrderService.get().success(function(data){
 							cart.orderItems = data;
+
+							$("#cartBadge").text(parseInt($("#cartBadge").text(), 10) - 1);
 						});
 					});
 				};
