@@ -65,12 +65,12 @@
 					<div class="reviewsPanel" ng-show="storeCtrl.isSelected(2)">
 						<br>
 						<blockquote>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+							<p>This beer is crisp and refreshing. There is also a sweet aftertaste which lingers in your mouth. Best paired with a packet of roast almonds.</p>
 							<p><b>- Jane Doe</b></p>
 						</blockquote>
 
 						<blockquote>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+							<p>I am so glad that Passion Crafters has opened a whole new world of taste for me through its interesting selection of craft beers!</p>
 							<p><b>- Ray Stein</b></p>
 						</blockquote>
 					</div>
