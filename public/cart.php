@@ -3,6 +3,7 @@
     <h3 class="panel-title">Your cart currently contains...</h3>
   </div>
   <div class="panel-body">
+  	<h4 ng-hide="cartCtrl.orderItems.length !== 0">Nothing! Quick, go grab some craft beers now!</h4>
     <div class="row" ng-repeat="orderItem in cartCtrl.orderItems">
     	<div class="media col-xs-10">
 		  <a class="pull-left" href ng-click="cartCtrl.showProduct(orderItem)">
@@ -42,7 +43,7 @@
 </div>
 
 <div class="btn-grp pull-right">
-	<a href="#" class="btn btn-default" role="button">Delete Selected</a>
+	<a href="#" class="btn btn-default" role="button">Delete All</a>
 	<a href="#" class="btn btn-default" role="button">Update All</a>
 	<a href="#" class="btn btn-lg btn-success" role="button">Proceed to Checkout</a></p>
 </div>

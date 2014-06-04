@@ -26,7 +26,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li id="cartNavBtn" ng-class="{ active: panelCtrl.isSelected(4) }">
                 <a href ng-click="panelCtrl.selectTab(4)">
-                  <span class="glyphicon glyphicon-shopping-cart"></span> Cart <span id="cartBadge" class="badge"></span>
+                  <span class="glyphicon glyphicon-shopping-cart"></span> Cart <span id="cartBadge" class="badge">0</span>
                 </a>
               </li>
               <p class="navbar-text navbar-right">Welcome, <a href="#" class="navbar-link">John Doe</a></p>

@@ -62,7 +62,7 @@
 					if(data.length !== 0) {
 						$("#cartBadge").text(data.length);
 					} else {
-						$("#cartBadge").text();
+						$("#cartBadge").text(0);
 					}
 				});
 
